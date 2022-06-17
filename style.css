@@ -1,0 +1,96 @@
+main{
+    width: 100%;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('./background images/bg-intro-desktop.png');
+    display: grid;
+    grid-template-columns: 45% 50%;
+    color: white; 
+}
+
+
+section aside{
+    margin:  25%;
+    margin-right: 5%;
+}
+section aside h1{
+    margin-bottom: 0;
+    font-size: 250%;
+    font-weight: 700;  
+}
+section.form-wrapper{
+    margin: 10% 25% 5% 0;
+    
+
+}
+
+button{
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 12px ;
+    padding: 5px 0;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 0px 8px 0px 0px rgba(105, 101, 101, 0.363);
+}
+
+
+form{
+    padding: 30px;
+    background-color: white;
+    margin: 0px;
+    border-radius: 10px; 
+    box-shadow: 0px 8px 0px 0px rgba(105, 101, 101, 0.363); 
+}
+
+section form input{
+    display: block;
+    width: 95%;
+    padding: 3% 0 3% 5%;
+    margin: 2% 0 5% ;
+    
+    border-radius: 5px;
+}
+  
+form input:focus-visible{
+
+    border: 3px solid hsl(248, 32%, 49%);
+    
+    
+}
+
+form input:last-child{
+    color: white;
+    background-color:hsl(154, 59%, 51%);
+    border: none;
+    width:102%;
+    box-shadow: 0px 2px 0px 0px rgba(105, 101, 101, 0.363);
+}
+section small{
+    display: block;
+    margin: 20px 30px;
+    color: hsla(246, 25%, 77%, 0.795);
+    text-align: center; 
+}
+
+section strong{
+    color: rgba(255, 0, 0, 0.548);
+
+}
+
+
+@media screen and (max-width:700px) {
+    main{
+        background-image: url('./background images/bg-intro-mobile.png');
+        grid-template-columns: 100%;
+    }
+    section.form-wrapper{
+        margin:  5% 10%; 
+    
+    }
+    section aside{
+        margin:  20%;
+        text-align: center;
+        
+    }
+}
