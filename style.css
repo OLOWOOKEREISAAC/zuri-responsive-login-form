@@ -5,6 +5,7 @@ main{
     display: grid;
     grid-template-columns: 45% 50%;
     color: white; 
+    font-family: 'Poppins';
 }
 
 
@@ -19,8 +20,6 @@ section aside h1{
 }
 section.form-wrapper{
     margin: 10% 25% 5% 0;
-    
-
 }
 
 button{
@@ -53,8 +52,8 @@ section form input{
 }
   
 form input:focus-visible{
-
     border: 3px solid hsl(248, 32%, 49%);
+    font-weight: 700;
     
     
 }
